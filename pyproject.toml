@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cx_freeze_test"
+version = "0.1.0"
+description = ""
+authors = ["bubio <bubio66@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+cx-Freeze = "^6.5.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
